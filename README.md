@@ -12,7 +12,7 @@
 
 
 #Client Side Rendering Desktop
-![](images/js_enbled_desktop_view.png)
+![](images/js_enabled_desktop_view.png)
 
 
 
@@ -22,7 +22,7 @@
 
 
 #Client Side Rendering Mobile
-![](images/js_enbled_mobile_view.png)
+![](images/js_enabled_mobile_view.png)
 
 
 
