@@ -66,14 +66,14 @@ export const CardWrapper = styled.div`
       }
     .detailsLeft{
         display: inline-block;
-        width: 25%;
+        width: 30%;
         text-align: left;
         float: left;
         color: grey;
     }
     .detailsRight{
         display: inline-block;
-        width: 70%;
+        width: 65%;
         text-align: right;
         float: right;
         color: #d88f07;

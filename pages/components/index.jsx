@@ -8,7 +8,6 @@ import Search from './search/Search';
 import SortBy from './sortBy/SortBy';
 
 const Components = () => {
-    // const [mutatedData, setMutatedData] = useState(data[0].results);
     const [cardData, setCardData] = useState(data[0].results);
     const [sortEvent, setSortEvent] = useState('ascending');
     const [chipsClose, setChipsClose] = useState('');

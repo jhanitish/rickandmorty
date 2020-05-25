@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Container, Row, Col } from 'reactstrap';
 
 export const MainContainer = styled(Container)`
+    max-width: 1380px;
 `;
 
 export const Main = styled(Row)`
@@ -17,10 +18,6 @@ export const Main = styled(Row)`
 
 export const ColLeft = styled(Col)`
     padding: 0;
-    @media only screen
-    and (max-width : 768px) {
-        padding-left: 30px;
-    };
 
     .filtersHeading{
         font-size: 30px;
@@ -34,13 +31,12 @@ export const ColLeft = styled(Col)`
 export const ColRight = styled(Col)`
     padding: 0;
     .colRight{
-        padding-left: 30px;
         text-align: left;
     }
 `;
 
 export const RowTop = styled(Col)`
-    
+    padding-left: 12px;
     .selectedFiltersHeading{
         font-size: 20px;
         font-weight: 600;
@@ -54,6 +50,7 @@ export const RowTop = styled(Col)`
     @media only screen
     and (max-width : 768px) {
         padding: 0;
+        padding-left: 12px;
     };
 `;
 
