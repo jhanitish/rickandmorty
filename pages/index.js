@@ -12,11 +12,3 @@ const Index = () => {
 };
 
 export default Index;
-
-// const renderMethod = !!module.hot ? ReactDOM.render : ReactDOM.hydrate;
-// renderMethod(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
