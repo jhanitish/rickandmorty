@@ -8,3 +8,23 @@
 #To run eslint - yarn run lint / npm run lint
 
 #To run both SSR and eslint for the project - yarn run dev:app / npm run dev:app
+
+
+
+#Client Side Rendering Desktop
+![](images/js_enbled_desktop_view.png)
+
+
+
+#Server Side Rendering Desktop
+![](images/js_disabled_desktop_view.png)
+
+
+
+#Client Side Rendering Mobile
+![](images/js_enbled_mobile_view.png)
+
+
+
+#Server Side Rendering Mobile
+![](images/js_disabled_mobile_view.png)
