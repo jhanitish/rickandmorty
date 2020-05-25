@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { MainContainer, Main, ColLeft, ColRight, RowTop, RowCard, SearchField, SortByField } from './style';
 import data from '../data';
 import Card from './card/Card';
@@ -8,7 +9,16 @@ import Search from './search/Search';
 import SortBy from './sortBy/SortBy';
 
 const Components = () => {
-    const [cardData, setCardData] = useState(data[0].results);
+    const [cardData, setCardData] = useState([]);
+    useEffect(() => {
+        axios.get('https://rickandmortyapi.com/api/character/')
+            .then(res => {
+                setCardData(res.data.results);
+            })
+            .catch(err => {
+                console.log(err);
+            })
+    }, []);
     const [sortEvent, setSortEvent] = useState('ascending');
     const [chipsClose, setChipsClose] = useState('');
     const [cardArray, setCardArray] = useState([]);
