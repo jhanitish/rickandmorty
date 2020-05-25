@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import Components from '../src/components';
+import Components from '../pages/components';
 import "bootstrap/dist/css/bootstrap.css";
+import './index.css';
 
 const App = () => {
   return (
