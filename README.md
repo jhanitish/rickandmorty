@@ -1,5 +1,6 @@
 # rickandmorty
 
+#First install all the dependencies of the project, do - yarn install / npm install 
 
 #To run the only client side of the project - yarn run start / npm run start
 
